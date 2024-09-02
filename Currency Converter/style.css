@@ -4,11 +4,12 @@
 }
 
 body {
-  /* display: flex; */
+   /* display: flex; */
  
    align-items: center; 
   min-height: 90vh;
-  background-color: #b34408;
+  background-image: url('quickglobal.webp');
+  background-size: cover;
  
 }
 
@@ -20,10 +21,10 @@ body {
   min-height: 45vh;
   width: 20%; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
-  margin-top: 7%;
-  margin-bottom: 7%;
+  margin-top: 4%;
+  margin-bottom: 5%;
   margin-left: 1.5%;
-  justify-content:left;
+  justify-content:center;
 }
 
 .container:hover {
@@ -170,4 +171,21 @@ form button:hover {
 .dropdown label {
   font-size: 1.25rem; 
   margin-bottom: 0.5rem; 
+}
+
+h1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+  position: sticky;
+}
+.about{
+  color: #FFD700;
+  
+  font-size: large;
+  margin-left: 5px;
+}
+.about::first-letter{
+  color: green;
 }
